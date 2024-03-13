@@ -100,7 +100,7 @@ def rename_files_2(file_list,extension):
         os.rename(file_list[i],file_list[i][:-8]+file_list[i][-len_ext:])
     return
 
-rename_files(filtered_list,extension=".sgy")
+rename_files_2(filtered_list,extension=".sgy")
 
 
 print("Successfully File Renamed")
